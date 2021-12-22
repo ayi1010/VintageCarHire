@@ -1,0 +1,46 @@
+.navbar-light .navbar-nav .nav-link.active {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #cb4332;
+    font-size: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: lightgrey;
+    font-size: 1rem;
+}
+
+section {
+    margin-top: 5px;
+}
+
+.cardImage {
+    border-radius: 10%;
+}
+
+@media (min-width: 576px) {
+    .cardImage {
+        max-height: 300px;
+        max-width: 305px;
+    }
+}
+
+.cardExtendStyle {
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    margin-bottom: 10px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}

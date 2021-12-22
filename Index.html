@@ -15,76 +15,86 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <nav class="navbar navbar-expand-md navbar-light bg-warning bg-opacity-25">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <div class="d-flex justify-content-end">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#cars">Cars</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#enquiries">Enquiries</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+                <a class="navbar-brand" href="#" id="top">
+                    <img src="/assets/img/logo.png" alt="company logo" width="90" height="30"
+                        class="d-inline-block align-text-top">
+                    Vintage Car Hire
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cars">Cars</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#enquiries">Enquiries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
     </header>
 
     <main class="container">
-        <h1 class="d-flex justify-content-center">Vintage cars for hire</h1>
-
+        <h1 class="d-flex justify-content-center my-5">Vintage cars for hire</h1>
         <section id="cars">
             <h2 class="text-center">Cars</h2>
-            <div class="row row-cols-1 row-cols-md-4">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
                 <div class="col">
-                    <div class="card">
-                        <img src="assets/img/vintagecar1.jpg" class="card-img-top" alt="orange vintage car">
+                    <div class="card cardExtendStyle">
+                        <img src="assets/img/vintagecar1.jpg" class="card-img-top cardImage" alt="orange vintage car">
                         <div class="card-body">
                             <h5 class="card-title">Vintage Car</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card cardExtendStyle">
+                        <img src="assets/img/vintagecar2.jpg" class="card-img-top cardImage" alt="orange vintage car">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
-                        <img src="assets/img/vintagecar1.jpg" class="card-img-top" alt="orange vintage car">
+                    <div class="card cardExtendStyle">
+                        <img src="assets/img/vintagecar3.jpg" class="card-img-top cardImage" alt="green vintage car">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
-                        <img src="assets/img/vintagecar1.jpg" class="card-img-top" alt="orange vintage car">
+                    <div class="card cardExtendStyle">
+                        <img src="assets/img/vintagecar4.jpg" class="card-img-top cardImage" alt="orange vintage car">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional content.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <img src="assets/img/vintagecar1.jpg" class="card-img-top" alt="orange vintage car">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
-                                to additional content. This content is a little bit longer.</p>
+                            <p class="card-text">
+                                This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -108,10 +118,10 @@
                             <label for="chooseCar" class="col-form-label">Choose a car</label>
                             <select class="form-select" id="chooseCar" aria-label="Default select example">
                                 <option selected>Please Select</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                                <option value="4">Four</option>
+                                <option value="1">Car One</option>
+                                <option value="2">Car Two</option>
+                                <option value="3">Car Three</option>
+                                <option value="4">Car Four</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -126,24 +136,36 @@
         </section>
 
         <section id="contact">
-            <h2 class="text-center">Contact</h2>
-            <div class="text-center">
-                <p>Sydney Vintage Car Hire</p>
-                <p>Address: Sydney NSW Australia</p>
-                <p>Phone: 0000-000-000</p>
-                <p>Email: fullmark@jmail.com</p>
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+                    <h2 class="text-center">Contact</h2>
+                    <div class="text-center">
+                        <p>Vintage Car Hire</p>
+                        <p>Address: Sydney NSW Australia</p>
+                        <p>Phone: 0000-000-000</p>
+                        <p>Email: fullmark@jmail.com</p>
+                    </div>
+                    <div class="map-responsive">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424143.27899332216!2d150.65110123608633!3d-33.84792547967762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20NSW!5e0!3m2!1sen!2sau!4v1640138172662!5m2!1sen!2sau"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
             </div>
         </section>
+        <section>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <button class="btn btn-secondary"><a href="#top"> Back to top</a></button>
+                </li>
+            </ul>
+        </section>
     </main>
+
 
     <footer class="py-3 my-4">
         <p class="text-center text-muted">© 2021 Company, Inc. All Rights Reserved.</p>
     </footer>
-
-
-
-
-
 
 
     <!-- Optional JavaScript; choose one of the two! -->
