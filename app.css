@@ -1,12 +1,8 @@
-.navbar-light .navbar-nav .nav-link.active {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #cb4332;
-    font-size: 1rem;
-}
 
+/* override Bootstrap navlink */
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: lightgrey;
+    background-color: #f8f9fa;
     font-size: 1rem;
 }
 
@@ -25,12 +21,14 @@ section {
     }
 }
 
+/* Extend Bootstrap card style */
 .cardExtendStyle {
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     margin-bottom: 10px;
 }
 
+/* Make google map responsive */
 .map-responsive{
     overflow:hidden;
     padding-bottom:50%;
@@ -43,4 +41,19 @@ section {
     height:100%;
     width:100%;
     position:absolute;
+}
+
+.btn-color {
+    background-color: #cb4332;
+    border-color: #cb4332;
+    color: white;
+}
+
+.btn-color a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-color a:hover{
+    color: black;
 }
