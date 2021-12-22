@@ -3,7 +3,13 @@
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f8f9fa;
+    color: black;
     font-size: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: #cb4332;
+    color: white;
 }
 
 section {
@@ -21,14 +27,14 @@ section {
     }
 }
 
-/* Extend Bootstrap card style */
+/* extend Bootstrap card style */
 .cardExtendStyle {
     border-top-left-radius: 10%;
     border-top-right-radius: 10%;
     margin-bottom: 10px;
 }
 
-/* Make google map responsive */
+/* make google map responsive */
 .map-responsive{
     overflow:hidden;
     padding-bottom:50%;
