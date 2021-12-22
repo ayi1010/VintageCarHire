@@ -1,5 +1,6 @@
 # Vintage Car Hire Website
 
+
 ## Purpose
 This website has been created as a part of web assessment for Generation Australia's JWD program.
 I have created a one-page responsive website using HTML, CSS and Bootstrap for a car agency listing vintage cars. 
@@ -18,3 +19,4 @@ The colour palette I used are:
 Primary:  #cb4332
 Secondary: #ffc107 with opacity 25%
 background: #f8f9fa
+
